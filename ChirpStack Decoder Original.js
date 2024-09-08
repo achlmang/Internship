@@ -144,4 +144,3 @@ function toBinary(str) {
     }
     return binaryData.join(''); // join the binary strings into a single string and return
 }
-

@@ -32,4 +32,3 @@ with open('devices.csv', 'r') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         add_device(row)
-
